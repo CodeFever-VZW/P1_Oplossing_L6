@@ -1,16 +1,17 @@
-def tel_op(a, b):  # Functie om twee getallen op te tellen
+# Functie om twee getallen op te tellen
+def tel_op(a, b):
     return a + b
 
-
-def trek_af(a, b):  # Functie om twee getallen van elkaar af te trekken
+# Functie om twee getallen van elkaar af te trekken
+def trek_af(a, b):
     return a - b
 
-
-def vermenigvuldig(a, b):  # Functie om twee getallen met elkaar te vermenigvuldigen
+# Functie om twee getallen met elkaar te vermenigvuldigen
+def vermenigvuldig(a, b):
     return a * b
 
-
-def deel(a, b):  # Functie om twee getallen door elkaar te delen
+# Functie om twee getallen door elkaar te delen
+def deel(a, b):
     if b != 0:
         return a / b
     else:
