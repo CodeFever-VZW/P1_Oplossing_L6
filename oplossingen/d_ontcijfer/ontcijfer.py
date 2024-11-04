@@ -1,6 +1,6 @@
 def ontcijfer(tekst, toegelaten_tekens):
     boodschap = ""
-    for letter in tekst: # Overloop alle letters
-        if letter in toegelaten_tekens: # Controleer of de letter in de toegelaten tekens voorkomt
-            boodschap += letter
+    for teken in tekst:  # Overloop alle tekens
+        if teken in toegelaten_tekens:  # Controleer of het teken in de toegelaten tekens voorkomt
+            boodschap += teken
     return boodschap
